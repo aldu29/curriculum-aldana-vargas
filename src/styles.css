@@ -1,6 +1,8 @@
 body { 
-    background-color: black;
+    background-color: rgb(7, 7, 7);
     font-family: Arial, sans-serif;
     font-style: normal;
-    font: color= rgb(156, 52, 52); 
+    color:rgb(230, 228, 229);
+    margin: 0px;
+    
 }
