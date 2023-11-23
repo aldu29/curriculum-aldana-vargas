@@ -1,0 +1,14 @@
+{
+    "datos-academicos":[
+        {
+            "organizacion":"Escuela 713",
+            "fechaegreso":"cursando 7mo año",
+            "titulo":"Tecnico en Informatica Profesional y Personal"
+        },
+        {
+            "organizacion":"CISCO",
+            "fecha-egreso":"2022",
+            "titulo":"ciberseguridad"
+        }
+    ]
+}

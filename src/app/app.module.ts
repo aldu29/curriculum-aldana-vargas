@@ -8,6 +8,7 @@ import { DatosPersonalesComponent } from './datos-personales/datos-personales.co
 import { ExperienciaLaboralComponent } from './experiencia-laboral/experiencia-laboral.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { DatosAcademicosComponent } from './datos/datos-academicos/datos-academicos.component';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DatosAcademicosComponent } from './datos/datos-academicos/datos-academi
     ExperienciaLaboralComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

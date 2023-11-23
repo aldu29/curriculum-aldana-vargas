@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DatosPersonalesService } from 'src/app/services/datos-personales.service';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  datosPersonales:any;
+constructor(private datosPersonalesService: DatosPersonalesService)
+  {
+this.datosPersonalesService.obtenerDatosPersonales().subscribe(
+{
+  
+}
+)
 
+}
 }
