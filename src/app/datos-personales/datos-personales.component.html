@@ -1,7 +1,12 @@
 <h2>Datos personales</h2>
-    <p>
-        <li>{{datosPersonales.direccion}}</li>
-        <li>Número de celular: {{datosPersonales.tel}}</li> 
-       <li> Correo electrónico: {{datosPersonales.email}}</li>
-        
-    </p>
+
+<ul>
+    <li *ngFor="let registro of datosPersonales">
+      <div>nombre: {{registro.nombre}}</div>
+      <div>apellido: {{registro.apellido}}</div>
+      <div>email: {{registro.email}}</div>
+      <div>direccion: {{registro.direccion}}</div>
+      <div>tel: {{registro.tel}}</div>
+
+    </li>
+  </ul>
